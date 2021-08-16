@@ -1,5 +1,14 @@
-body {background-color:black;font-family: arial;color:white}
-h1{color:grey;font-family: verdana}
+body {
+    background-color:black;
+    font-family: arial;
+    color:white
+}
+
+h1 {
+    color:grey;
+    font-family: verdana;
+    padding: 0px 10px
+}
 
 .maindiv {
     background-color: white;
@@ -8,7 +17,7 @@ h1{color:grey;font-family: verdana}
     padding: 20px;
     border-radius: 25px;
     margin: auto;
-    box-align:center;
-    text-align:center
+    box-align: center;
+    line-height: normal
 }
 
