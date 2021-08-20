@@ -19,9 +19,11 @@ h1 {
     box-align: center;
     text-align: left
 }
+
 .classname {
     word-spacing: 40px
 }
+
 .result {
     display: none
 }
