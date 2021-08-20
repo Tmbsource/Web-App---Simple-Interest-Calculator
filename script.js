@@ -18,12 +18,12 @@ function updateRate()
 }
     
 function rate.onchange()
-
 {  
     rate_val.innerHTML = this.value;
 }
 
-function validateAmount() {
+function validateAmount() 
+{
     var principal = document.getElementById("principal").value;
     var moreThenZero = parseInt(principal) > 0;
     if (!moreThenZero) {
