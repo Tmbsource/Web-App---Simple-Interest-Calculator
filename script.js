@@ -19,7 +19,9 @@ function updateRate()
     
 function rate.onchange()
 
- {  rate_val.innerHTML = this.value;  }
+{  
+    rate_val.innerHTML = this.value;
+}
 
 function validateAmount() {
     var principal = document.getElementById("principal").value;
@@ -27,4 +29,4 @@ function validateAmount() {
     if (!moreThenZero) {
         alert("Enter a positive number please");
         document.getElementById("principal").focus();
-    }
+}
