@@ -7,7 +7,6 @@ body {
 h1 {
     color:grey;
     font-family: verdana
-    text-align: center;
 }
 
 .maindiv {
@@ -18,7 +17,7 @@ h1 {
     border-radius: 25px;
     margin: auto;
     box-align: center;
-    text-align: left
+    text-align: center 
 }
 
 .result {
