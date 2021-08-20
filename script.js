@@ -19,4 +19,12 @@ function updateRate()
     
     rate.onchange = function()
 
- {  rate_val.innerHTML = this.value;  }    
+ {  rate_val.innerHTML = this.value;  }
+
+function validateAmount() {
+    var principal = document.getElementById("principal").value;
+    var moreThenZero = parseInt(principal) > 0;
+    if (!moreThenZero) {
+        alert("Enter a positive number please");
+        document.getElementById("principal").focus();
+    }
