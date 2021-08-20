@@ -13,14 +13,15 @@ h1 {
     background-color: white;
     color:black;
     width: 400px;
-    padding: 20px 40px;
+    padding: 20px;
     border-radius: 25px;
     margin: auto;
     box-align: center;
-    text-align: left;
-    word-spacing: 5px
+    text-align: left
 }
-
+.classname {
+    word-spacing: 40px
+}
 .result {
     display: none
 }
