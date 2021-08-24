@@ -20,8 +20,18 @@ h1 {
     text-align: left
 }
 
-.classname {
-    word-spacing: 40px
+.mainform { 
+    margin:auto;
+    line-height:30px;	
+    display:table
+}
+
+.mainform p { 
+    display: table-row
+}
+
+.mainform label { 
+    display:table-cell
 }
 
 .result {
