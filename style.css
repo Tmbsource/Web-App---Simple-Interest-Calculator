@@ -24,8 +24,7 @@ h1 {
 .mainform { 
     margin: auto;
     line-height: 30px;	
-    display: table;
-    text-align: left
+    display: table
 }
 
 .result {
