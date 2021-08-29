@@ -25,15 +25,7 @@ h1 {
     margin: auto;
     line-height: 30px;	
     display: table;
-    text-align: center 
-}
-
-.mainform p { 
-    display: table-row
-}
-
-.mainform label { 
-    display: table-cell
+    text-align: left
 }
 
 .result {
