@@ -18,13 +18,14 @@ h1 {
     margin: auto;
     box-align: center;
     line-height: normal;
-    text-align: center
+    text-align: left 
 }
 
 .mainform { 
-    margin:auto;
-    line-height:30px;	
-    display:table
+    margin: auto;
+    line-height: 30px;	
+    display: table;
+    text-align: center 
 }
 
 .mainform p { 
@@ -32,7 +33,7 @@ h1 {
 }
 
 .mainform label { 
-    display:table-cell
+    display: table-cell
 }
 
 .result {
